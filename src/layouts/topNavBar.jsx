@@ -6,7 +6,7 @@ const TopNavBar = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Top Navigation Bar */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center my-[8px]">
         <div className="flex gap-[5px] ml-[54px] items-center cursor-pointer">
           <div>
             <img src={furniroLogo} alt="furniroLogo" />
@@ -40,7 +40,7 @@ const TopNavBar = ({ children }) => {
         </div>
       </div>
       {/* Render Children */}
-      <main className="flex-grow mt-4 px-4">{children}</main>
+      <main className="flex-grow">{children}</main>
     </div>
   );
 };
