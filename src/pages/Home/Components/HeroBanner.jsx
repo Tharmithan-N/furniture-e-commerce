@@ -14,7 +14,7 @@ const HeroBanner = () => {
                   <div className="text-[#333333] text-[16px] font-semibold leading-auto">New Arival</div>
                   <div className="text-[#B88E2F] text-[52px] font-bold leading-[65px] mt-[4px]">Discover Our New Collection</div>
                   <div className="text-[#333333] text-[18px] font-medium leading-[24px] mt-[17px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</div>
-                      <div className="bg-[#B88E2F] text-[#fff] px-[72px] py-[25px] inline-block mt-[48px] cursor-pointer">BUY NOW</div>
+                      <div className="bg-[#B88E2F] text-[#fff] px-[72px] py-[25px] inline-block mt-[48px] cursor-pointer text-[16px] font-bold">BUY NOW</div>
             </div>
           </div>
     </div>

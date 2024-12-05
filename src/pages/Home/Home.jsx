@@ -1,10 +1,14 @@
-import React from 'react'
-import HeroBanner from './Components/HeroBanner'
+import React from "react";
+import HeroBanner from "./Components/HeroBanner";
+import BrowseTheRange from "./Components/BrowseTheRange";
 
 const Home = () => {
   return (
-    <div><HeroBanner /></div>
-  )
-}
+    <div>
+      <HeroBanner />
+      <BrowseTheRange />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
