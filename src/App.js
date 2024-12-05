@@ -1,12 +1,12 @@
 import TopNavBar from "./layouts/topNavBar";
-import HeroBanner from "./pages/Home/HeroBanner";
+import Home from "./pages/Home/Home";
 
 export default function App() {
   return (
     <div>
       <TopNavBar>
-        <HeroBanner />
+        <Home />
       </TopNavBar>
     </div>
-  )
+  );
 }
