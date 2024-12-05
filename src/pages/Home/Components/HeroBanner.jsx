@@ -1,5 +1,5 @@
 import React from "react";
-import heroBannerImg from "../../assets/Home/Banner/heroBannerImg.png";
+import heroBannerImg from "../../../assets/Home/Banner/heroBannerImg.png";
 
 const HeroBanner = () => {
   return (
